@@ -11,7 +11,7 @@ public void draw(){
   smart(300, 600, 150, 100, 1, 5, 58, 30);
 }
 void mouseMoved(){
-  v = v + .01;
+  v = v + .05;
   if (v == 50) {
     v = 0;
   }
